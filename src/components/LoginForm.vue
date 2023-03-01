@@ -42,7 +42,7 @@ export default {
   },
   methods : {
     login() {
-      if(this.username === 'asm_admin' && this.password === '9935asm') {
+      if(this.username === 'admin' && this.password === 'Admin@123') {
         //Success Route - DashBoard
         sessionStorage.setItem("loginSuccess", true);
         this.$router.push({name : 'dashboard'})
